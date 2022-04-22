@@ -1,0 +1,160 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Administración de libros</h1>
+    <!--<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>-->
+</div>
+
+<div style="margin-top: 2%;">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#AddAuthorModal">
+        Registrar Autor
+    </button>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#AddBookModal">
+        Registrar libro
+    </button>
+</div>
+
+<div style="margin-top: 2%;">
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>BookId</th>
+                <th>Titulo</th>
+                <th>Año de publicación</th>
+                <th>Número de páginas</th>
+                <th>AuthorId</th>
+                <th>Autor</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<!-- Modal Registrar Autor -->
+<div class="modal fade" id="AddAuthorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Agregar autor</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="authorFullname">Nombre del autor</label>
+                        <input type="text" class="form-control" id="authorFullname" placeholder="Nombres y apellidos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="authorBirthday">Fecha de nacimiento</label>
+                        <input type="date" class="form-control" id="authorBirthday" placeholder="Fecha de nacimiento" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="authorCity">Ciudad</label>
+                        <input type="text" class="form-control" id="authorCity" placeholder="Ciudad de procedencia" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="authorEmail">Email</label>
+                        <input type="email" class="form-control" id="authorEmail" placeholder="name@example.com" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary" id="SaveAuthor">Guardar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal Registrar Libro -->
+<div class="modal fade" id="AddBookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Agregar libro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="bookTitle">Nombre del libro</label>
+                        <input type="text" class="form-control" id="bookTitle" placeholder="Nombre del libro" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookYear">Año de publicación</label>
+                        <input type="text" class="form-control" id="bookYear" placeholder="Año de publicación" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookNumberPages">Número de páginas</label>
+                        <input type="number" class="form-control" id="bookNumberPages" placeholder="Número de páginas" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookAuthor">Autor</label>
+                        <select class="form-control" id="bookAuthor" required></select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary" id="SaveBook">Guardar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal Editar libro -->
+<div class="modal fade" id="EditBookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Editar libro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="EditbookId" />
+                    <div class="form-group">
+                        <label for="EditbookTitle">Nombre del libro</label>
+                        <input type="text" class="form-control" id="EditbookTitle" placeholder="Nombre del libro" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="EditbookYear">Año de publicación</label>
+                        <input type="text" class="form-control" id="EditbookYear" placeholder="Año de publicación" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="EditbookNumberPages">Número de páginas</label>
+                        <input type="number" class="form-control" id="EditbookNumberPages" placeholder="Número de páginas" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="EditbookAuthor">Autor</label>
+                        <select class="form-control" id="EditbookAuthor" required></select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveBookChanges">Guardar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal borrar libro -->
+<div class="modal fade" id="DeleteBookModal" tabindex="-1" role="dialog" aria-labelledby="smallModalLabel" aria-hidden="false">
+    <div class="modal-dialog modal-sm">
+        <input type="hidden" id="DeleteBookId" />
+    </div>
+</div>
+
