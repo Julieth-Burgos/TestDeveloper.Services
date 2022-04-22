@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rISR5nlERQZhp9bV0DMh+mdPO/bSmNl3Xj+ys4i0MYkO3SzT/1NcuhOFQb8B0ZvwdYGD7Nsx0VejtssJW9wi1A==",
+  "dgSpecHash": "WrQMx9OepF0AqAEkWUGhbCE2Aqb2HanVvzvrzhSziRw3qbQhAU7YILOpUo29Ei7hTdbINHAjfdGqcK9euQsT7g==",
   "success": true,
-  "projectFilePath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj",
+  "projectFilePath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cburgos\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\cburgos\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

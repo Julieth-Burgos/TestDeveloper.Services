@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj",
+      "projectUniqueName": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj",
       "projectName": "TestDeveloper.Services.Domain",
-      "projectPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj",
+      "projectPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj",
       "packagesPath": "C:\\Users\\cburgos\\.nuget\\packages\\",
-      "outputPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\obj\\",
+      "outputPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -5946,11 +5946,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj",
+      "projectUniqueName": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj",
       "projectName": "TestDeveloper.Services.API",
-      "projectPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj",
+      "projectPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj",
       "packagesPath": "C:\\Users\\cburgos\\.nuget\\packages\\",
-      "outputPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.API\\obj\\",
+      "outputPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5974,8 +5974,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj": {
-              "projectPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj"
+            "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj": {
+              "projectPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj"
             }
           }
         }

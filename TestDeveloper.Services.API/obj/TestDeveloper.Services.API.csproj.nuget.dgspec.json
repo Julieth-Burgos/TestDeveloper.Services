@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj": {}
+    "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj": {}
   },
   "projects": {
-    "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj": {
+    "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj",
+        "projectUniqueName": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj",
         "projectName": "TestDeveloper.Services.API",
-        "projectPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj",
+        "projectPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.API\\TestDeveloper.Services.API.csproj",
         "packagesPath": "C:\\Users\\cburgos\\.nuget\\packages\\",
-        "outputPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.API\\obj\\",
+        "outputPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -35,8 +35,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj": {
-                "projectPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj"
+              "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj": {
+                "projectPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj": {
+    "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj",
+        "projectUniqueName": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj",
         "projectName": "TestDeveloper.Services.Domain",
-        "projectPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj",
+        "projectPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj",
         "packagesPath": "C:\\Users\\cburgos\\.nuget\\packages\\",
-        "outputPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\obj\\",
+        "outputPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj": {
+    "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj",
         "projectName": "TestDeveloper.Services.Infraestructure",
-        "projectPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj",
+        "projectPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\TestDeveloper.Services.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\cburgos\\.nuget\\packages\\",
-        "outputPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\obj\\",
+        "outputPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -164,8 +164,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj": {
-                "projectPath": "C:\\Julieth\\Pruebas\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj"
+              "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj": {
+                "projectPath": "C:\\Work\\Development\\TestDeveloper.Services\\TestDeveloper.Services.Domain\\TestDeveloper.Services.Domain.csproj"
               }
             }
           }
